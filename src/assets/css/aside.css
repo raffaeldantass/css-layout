@@ -1,0 +1,23 @@
+.left-aside {
+  background-color: #1D1C1B;
+}
+
+.left-aside__title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.left-aside__menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left-aside__menu__link-item {
+  color: #ffffff;
+  margin: 15px;
+  padding: 10px 60px;
+  background-color: #272828;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}

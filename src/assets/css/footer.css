@@ -1,0 +1,25 @@
+.footer-block {
+  background-color: #262B3F;
+}
+
+.icon-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-block__title {
+  margin: 2px 0;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.social-icon-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icon-list__icon-item {
+  margin: 0 5px;
+}

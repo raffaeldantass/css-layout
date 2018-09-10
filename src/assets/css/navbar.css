@@ -1,0 +1,14 @@
+.navbar-block {
+  background-color: #262B3F;
+}
+
+.navbar-block__menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-block__menu__link-item {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
