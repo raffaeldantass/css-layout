@@ -1,0 +1,32 @@
+.grid-image-block {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  width: 70%;
+  align-items: center;
+  margin: auto 0;
+}
+
+.photos__gallery, .drawings__gallery, .landscape__gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+.img {
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .photos__gallery, .drawings__gallery, .landscape__gallery {
+    justify-content: center;
+  }
+
+  .gallery-title {
+    text-align: center;
+  }
+}
